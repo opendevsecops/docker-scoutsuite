@@ -8,6 +8,10 @@
 
 This is the docker container for NCC [ScoutSuite](https://github.com/nccgroup/ScoutSuite).
 
+The container entry point is controlled by [launcher](https://github.com/opendevsecops/go-launcher) which provides additional features useful when used in cloud environments.
+
+> WARNING: due to recent changes in Docker Hub repo badges appear incorrectly
+
 ## Getting Started
 
 This container is built automatically by Docker Hub. Simply pull to get latest build.
